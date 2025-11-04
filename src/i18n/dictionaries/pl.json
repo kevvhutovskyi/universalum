@@ -82,33 +82,113 @@
     "construction": "Budownictwo",
     "description": "Podejmujemy się pełnego cyklu prac - od przeprowadzenia analizy potencjału działki po zakończenie budowy i oddanie do użytku. Pracujemy odpowiedzialnie, przestrzegając terminów, norm i standardów budowlanych.",
     "items": {
-      "concept1": "Koncepcja wielorodzinnego budynku mieszkalnego z dachem użytkowym",
-      "construction1": "Budowa wielorodzinnego budynku mieszkalnego",
-      "concept2": "Koncepcja wielorodzinnego budynku mieszkalnego z dachem użytkowym",
-      "complex": "Wielokondygnacyjny kompleks mieszkalny",
-      "quarter": "Kwartał mieszkalny z infrastrukturą"
+      "concepts": {
+        "item1": {
+          "title": "Wielofunkcyjne centrum handlowe"
+        },
+        "item2": {
+          "title": "\"Komfortowy kompleks mieszkaniowy\""
+        },
+        "item3": {
+          "title": "Wielofunkcyjny budynek użyteczności publicznej z wielopoziomowym parkingiem",
+          "location": "Lwów"
+        },
+        "item4": {
+          "title": "Kompleks sportowy"
+        },
+        "item5": {
+          "title": "Budynek mieszkalny z budynkiem użyteczności publicznej – \"wkładką\"",
+          "location": "Lwów"
+        },
+        "item6": {
+          "title": "Wielofunkcyjny kompleks. Mieszkania. Biura. Handel."
+        },
+        "item7": {
+          "title": "Wielofunkcyjny kompleks. Biura. Handel."
+        },
+        "item8": {
+          "title": "Koncepcja budowy II etapu budynku chirurgicznego z lądowiskiem dla helikopterów",
+          "location": "Lwów"
+        },
+        "item9": {
+          "title": "Centrum biurowe",
+          "location": "Lwów"
+        },
+        "item10": {
+          "title": "Koncepcja budynku mieszkalnego z użytkowymi tarasami na dachu",
+          "location": "Mukaczewo, obwód zakarpacki"
+        }
+      }
+    },
+    "designs": {
+      "item1": {
+        "title": "Budynek mieszkalny klasy komfort"
+      },
+      "item2": {
+        "title": "Centrum handlowo-rozrywkowe \"Podillia-City\"",
+        "location": "Winnica"
+      },
+      "item3": {
+        "title": "Wielomieszkaniowy budynek mieszkalny z centrum handlowo-rozrywkowym",
+        "location": "Winnica"
+      },
+      "item4": {
+        "title": "Złożony projekt budynku magazynowego z pomieszczeniami biurowymi i użytkowymi",
+        "location": "wieś Pidberizci, obwód lwowski"
+      },
+      "item5": {
+        "title": "Nowoczesna placówka edukacyjna"
+      },
+      "item6": {
+        "title": "Kompleks przemysłowo-produkcyjny"
+      },
+      "item7": {
+        "title": "Wielomieszkaniowy budynek mieszkalny",
+        "location": "Lwów"
+      },
+      "item8": {
+        "title": "Kompleks domków jednorodzinnych"
+      },
+      "item9": {
+        "title": "Centrum biurowe",
+        "location": "Lwów"
+      },
+      "item10": {
+        "title": "Centrum biurowe"
+      },
+      "item11": {
+        "title": "Centrum medyczne"
+      }
+    },
+    "constructions": {
+      "item1": {
+        "title": "Prywatna klinika"
+      },
+      "item2": {
+        "title": "Wielomieszkaniowy budynek mieszkalny z penthouse’ami i lokalami użytkowymi",
+        "location": "Mukaczewo, obwód zakarpacki"
+      },
+      "item3": {
+        "title": "Apartamenty mieszkalne",
+        "location": "Mukaczewo, obwód zakarpacki"
+      }
     }
   },
   "testimonials": {
     "testimonial1": {
-      "content": "Do najważniejszych zalet TDG COMPANY Sp. z o.o. można zaliczyć terminowe i wysokiej jakości wykonanie prac, kompletowanie wysoko wykwalifikowanym personelem, operatywność w pracy oraz odpowiedzialność za podjęte zobowiązania",
-      "author": "Chuley S.Y.",
-      "position": "Dyrektor Medical Estate Sp. z o.o."
+      "content": "Najważniejsze zalety firmy TDG COMPANY to wysoka jakość wykonywanych prac, zespół wykwalifikowanych specjalistów, szybkość działania oraz odpowiedzialność za podjęte zobowiązania.",
+      "author": "Czulej S.Ja.",
+      "position": "Dyrektor Sp. z o.o. 'Medical Estate'"
     },
     "testimonial2": {
-      "content": "Firma demonstruje najwyższy poziom profesjonalizmu i odpowiedzialności. Wszystkie etapy projektu są realizowane dokładnie w terminie z zachowaniem wszystkich wymagań technicznych. Szczególnie imponuje uwaga do szczegółów i gotowość wyjścia naprzeciw życzeniom klienta",
-      "author": "Kovalenko V.M.",
-      "position": "Dyrektor Techniczny BudTechnologie S.A."
+      "content": "Prace zostały wykonane zgodnie z obowiązującymi normami i przepisami budowlanymi, warunkami umowy, w ustalonym terminie, z należytą jakością, w pełnym zakresie, bez uwag i zastrzeżeń; prace były prowadzone z zachowaniem wszystkich wymaganych zasad bezpieczeństwa sanitarnego i przeciwpożarowego, przepisów BHP, z wykorzystaniem nowoczesnych, certyfikowanych materiałów, na wysokim poziomie technicznym.",
+      "author": "Bernyk M.W.",
+      "position": "Dyrektor Sp. z o.o. 'SPMK nr 549'"
     },
     "testimonial3": {
-      "content": "Doskonała organizacja procesu, indywidualne podejście do każdego projektu i profesjonalny zespół. Wszystkie prace są wykonane z jakością i w terminie.",
-      "author": "Petrenko M.I.",
-      "position": "Kierownik Projektów Stroytech S.A."
-    },
-    "testimonial4": {
-      "content": "Współpraca z firmą pozostawiła tylko pozytywne wrażenia. Wysoki poziom profesjonalizmu, ścisłe przestrzeganie terminów i jakość wykonania prac zasługują na najwyższą ocenę.",
-      "author": "Ivanenko O.V.",
-      "position": "Główny Inżynier EnergoBud Sp. z o.o."
+      "content": "Podczas realizacji prac ogólnobudowlanych, wykończeniowych i inżynieryjnych pracownicy firmy TDG COMPANY potwierdzili swoje wysokie kwalifikacje, stosując nowoczesne materiały i technologie budowlane. W trakcie realizacji prac firma TDG COMPANY wykazała się jako rzetelny generalny wykonawca.",
+      "author": "Czulej S.Ja.",
+      "position": "Dyrektor Sp. z o.o. 'BEREGMED'"
     }
   },
   "footer": {

@@ -111,3 +111,17 @@ export function clamp(value: number, min: number, max: number): number {
 export function generateId(prefix = "id"): string {
   return `${prefix}-${Math.random().toString(36).substr(2, 9)}`;
 }
+
+/**
+ * Group by array item key
+ */
+export function groupBy<T, K extends keyof T>(array: T[], key: K): Record<string, T[]> {
+  return array.reduce((acc, item) => {
+    const groupKey = String(item[key]);
+    if (!acc[groupKey]) {
+      acc[groupKey] = [];
+    }
+    acc[groupKey].push(item);
+    return acc;
+  }, {} as Record<string | number, T[]>);
+}

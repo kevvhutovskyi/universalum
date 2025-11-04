@@ -34,12 +34,6 @@ export const TestimonialsBlock = () => {
       author: t("testimonials.testimonial3.author"),
       position: t("testimonials.testimonial3.position"),
     },
-    {
-      id: 4,
-      content: t("testimonials.testimonial4.content"),
-      author: t("testimonials.testimonial4.author"),
-      position: t("testimonials.testimonial4.position"),
-    },
   ];
 
   const TestimonialSlide = ({

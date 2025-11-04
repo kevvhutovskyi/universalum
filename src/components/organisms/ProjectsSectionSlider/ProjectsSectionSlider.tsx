@@ -12,6 +12,8 @@ import { cn } from "@/lib/utils";
 import { Tags } from "@/types/tags.enum";
 import { useTranslations } from "next-intl";
 import { useRouter } from "@/i18n/routing";
+import { ProjectItem } from "@/types";
+import { getProjects } from "@/data/getProjects";
 
 export interface Project {
   id: number;
@@ -25,38 +27,7 @@ export const ProjectsSectionSlider = React.forwardRef<HTMLElement>(
     const t = useTranslations();
     const router = useRouter();
 
-    const defaultProjects: Project[] = [
-      {
-        id: 1,
-        title: t("projects.items.concept1"),
-        tags: [Tags.CONCEPT],
-        image: "/projects/Project1.jpg",
-      },
-      {
-        id: 2,
-        title: t("projects.items.construction1"),
-        tags: [Tags.DESIGN, Tags.CONSTRUCTION],
-        image: "/projects/Project2.jpg",
-      },
-      {
-        id: 3,
-        title: t("projects.items.concept2"),
-        tags: [Tags.CONCEPT, Tags.DESIGN],
-        image: "/projects/Project3.jpg",
-      },
-      {
-        id: 4,
-        title: t("projects.items.complex"),
-        tags: [Tags.DESIGN, Tags.CONSTRUCTION],
-        image: "/projects/Project1.jpg",
-      },
-      {
-        id: 5,
-        title: t("projects.items.quarter"),
-        tags: [Tags.CONSTRUCTION],
-        image: "/projects/Project2.jpg",
-      },
-    ];
+    const defaultProjects: ProjectItem[] = getProjects(t)
 
     const projectsToUse = defaultProjects;
     const sectionLabelToUse = t("common.ourProjects");
@@ -141,7 +112,7 @@ export const ProjectsSectionSlider = React.forwardRef<HTMLElement>(
             {projectsToUse.map((project) => (
               <SwiperSlide key={project.id}>
                 <ProjectCard
-                  image={project.image}
+                  image={project.img}
                   title={project.title}
                   tags={project.tags}
                   href={`/projects/${project.id}`}

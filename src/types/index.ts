@@ -1,3 +1,5 @@
+import { Tags } from "./tags.enum";
+
 // Project types
 export interface Project {
   id: number;
@@ -9,6 +11,16 @@ export interface Project {
   category?: string;
   completedAt?: Date;
   location?: string;
+}
+
+export interface ProjectItem {
+  id: number;
+  img: string;
+  tags: Tags[];
+  title: string;
+  description?: string;
+  location?: string;
+  images: string[];
 }
 
 // Navigation types

@@ -2,46 +2,50 @@
 "use client";
 
 import { ProjectGallery } from "@/components/organisms/ProjectsGallery";
+import { getProject } from "@/data/getProject";
+import { ProjectItem } from "@/types";
+import { p } from "framer-motion/client";
 import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
 
 export const ProjectDetailSections = () => {
+  const { id } = useParams();
   const t = useTranslations();
+
+  const project = getProject(Number(id), t);
 
   return (
     <>
-      <HeaderSection t={t} />
+      <HeaderSection project={project} t={t} />
     </>
   );
 };
 
-const HeaderSection = ({ t }: { t: ReturnType<typeof useTranslations> }) => {
+const HeaderSection = ({ project, t }: { project: ProjectItem, t: ReturnType<typeof useTranslations> }) => {
   return (
     <>
       <img
-        src="/photo/Hero4.jpg"
+        src={project.img}
         alt="Projects"
         className="object-cover object-center w-full h-[23rem] md:h-[35rem] lg:h-[40rem]"
       />
       <section className="container mx-auto mt-10 mb-10 md:mb-15 flex flex-col gap-6 md:gap-10 px-4 md:px-0 text-grayscale-black">
         <h1 className="text-headline-5 md:text-headline-3">
-          {t("pages.projects.detail.title")}
+          {project.title}
         </h1>
         <div className="flex flex-col gap-3">
           <h6 className="text-body-1 md:text-headline-6">
-            {t("pages.projects.detail.description1")}
-          </h6>
-          <h6 className="text-body-1 md:text-headline-6">
-            {t("pages.projects.detail.description2")}
+            {project.description}
           </h6>
         </div>
-        <div className="flex gap-2">
+        {project.location && <div className="flex gap-2">
           <img src="/icons/MapPin.svg" alt="Pin" className="h-8 w-8" />
           <p className="text-subtitle-1 md:text-headline-5">
-            {t("pages.projects.detail.location")}
+            {project.location}
           </p>
-        </div>
+        </div>}
       </section>
-      <ProjectGallery />
+      {project.images.length && <ProjectGallery images={project.images} />}
     </>
   );
 };

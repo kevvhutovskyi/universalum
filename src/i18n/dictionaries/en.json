@@ -82,33 +82,110 @@
     "construction": "Construction",
     "description": "We take on the full cycle of work - from conducting land plot potential analytics to completing construction and commissioning. We work responsibly, adhering to deadlines, building codes and standards.",
     "items": {
-      "concept1": "Concept of multi-apartment residential building with exploited roof",
-      "construction1": "Construction of multi-apartment residential building",
-      "concept2": "Concept of multi-apartment residential building with exploited roof",
-      "complex": "Multi-story residential complex",
-      "quarter": "Residential quarter with infrastructure"
+      "concepts": {
+        "item1": {
+          "title": "Multifunctional shopping center"
+        },
+        "item2": {
+          "title": "\"Comfort residential complex\""
+        },
+        "item3": {
+          "title": "Multifunctional public building with multi-level parking",
+          "location": "Lviv"
+        },
+        "item4": {
+          "title": "Sports complex"
+        },
+        "item5": {
+          "title": "Residential building with a public building \"insert\"",
+          "location": "Lviv"
+        },
+        "item6": {
+          "title": "Multifunctional complex. Housing. Offices. Commerce."
+        },
+        "item7": {
+          "title": "Multipurpose complex. Offices. Commerce."
+        },
+        "item8": {
+          "title": "Concept of construction of the 2nd stage of the surgical building with a helipad",
+          "location": "Lviv"
+        },
+        "item9": {
+          "title": "Office center",
+          "location": "Lviv"
+        },
+        "item10": {
+          "title": "The concept of an apartment building with usable roof terraces.",
+          "location": "Mukachevo, Transcarpathian region."
+        }
+      },
+      "designs": {
+        "item1": {
+          "title": "Comfort class apartment building"
+        },
+        "item2": {
+          "title": "Shopping and Entertainment Complex \"Podillia-City\""
+        },
+        "item3": {
+          "title": "Multi-Apartment Residential Building with a Shopping and Entertainment Complex"
+        },
+        "item4": {
+          "title": "Comprehensive Project of a Warehouse Building with Office and Utility Premises"
+        },
+        "item5": {
+          "title": "Modern Educational Institution"
+        },
+        "item6": {
+          "title": "Industrial and Manufacturing Complex"
+        },
+        "item7": {
+          "title": "Multi-Apartment Residential Building",
+          "location": "Lviv"
+        },
+        "item8": {
+          "title": "Cottage Complex"
+        },
+        "item9": {
+          "title": "Office Center",
+          "location": "Lviv"
+        },
+        "item10": {
+          "title": "Office Center"
+        },
+        "item11": {
+          "title": "Medical Center"
+        }
+      },
+      "constructions": {
+        "item1": {
+          "title": "Private Clinic"
+        },
+        "item2": {
+          "title": "Multi-Apartment Residential Building with Penthouses and Commercial Spaces",
+          "location": "Mukachevo, Transcarpathian region."
+        },
+        "item3": {
+          "title": "Residential Apartments",
+          "location": "Mukachevo, Transcarpathian region."
+        }
+      }
     }
   },
   "testimonials": {
     "testimonial1": {
-      "content": "The most important advantages of TDG COMPANY LLC include timely and high-quality work performance, staffing with highly qualified personnel, efficiency in work and responsibility for undertaken obligations",
-      "author": "Chuley S.Y.",
-      "position": "Director of Medical Estate LLC"
+      "content": "The key advantages of TDG COMPANY are high-quality work, a team of highly qualified professionals, efficiency, and responsibility for the commitments undertaken.",
+      "author": "Chulei S.Y.",
+      "position": "Director of LLC 'Medical Estate'"
     },
     "testimonial2": {
-      "content": "The company demonstrates the highest level of professionalism and responsibility. All project stages are completed exactly on time with compliance with all technical requirements. The attention to detail and willingness to meet customer wishes is particularly impressive",
-      "author": "Kovalenko V.M.",
-      "position": "Technical Director of BudTechnologies PJSC"
+      "content": "The works were carried out in accordance with current construction standards and regulations, the terms of the contract, within the established timeframe, with proper quality, in full, without any remarks or claims; all work was performed in compliance with sanitary and fire safety rules, occupational safety regulations, and using modern certified materials at a high technical level.",
+      "author": "Bernyk M.V.",
+      "position": "Director of LLC 'SPMK No. 549'"
     },
     "testimonial3": {
-      "content": "Excellent process organization, individual approach to each project and professional team. All works are completed with quality and on time.",
-      "author": "Petrenko M.I.",
-      "position": "Project Manager of Stroytech PJSC"
-    },
-    "testimonial4": {
-      "content": "Cooperation with the company left only positive impressions. High level of professionalism, strict adherence to deadlines and quality of work performance deserve the highest rating.",
-      "author": "Ivanenko O.V.",
-      "position": "Chief Engineer of EnergoBud LLC"
+      "content": "During the execution of general construction, finishing, and engineering works, the employees of TDG COMPANY demonstrated high qualifications, using modern construction materials and technologies. Throughout the process, LLC TDG COMPANY proved to be a reliable general contractor.",
+      "author": "Chulei S.Y.",
+      "position": "Director of LLC 'BEREGMED'"
     }
   },
   "footer": {
