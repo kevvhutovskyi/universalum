@@ -61,10 +61,10 @@
     "networkError": "Błąd sieci. Sprawdź połączenie i spróbuj ponownie."
   },
   "services": {
-    "title": "Realizujemy obiekty mieszkalne, komercyjne i infrastrukturalne",
+    "title": "Projektujemy obiekty mieszkaniowe, komercyjne i infrastrukturalne",
     "design": {
       "title": "Projektowanie",
-      "description": "Kompleksowe przygotowanie dokumentacji projektowej dla obiektów mieszkalnych, komercyjnych i publicznych. Wykonujemy badania inżynieryjno-geologiczne i geodezyjne, opracowujemy rozwiązania architektoniczne, koordynujemy ze wszystkimi instancjami."
+      "description": "Kompleksowe opracowywanie dokumentacji projektowej dla obiektów mieszkalnych, komercyjnych i użyteczności publicznej. Wykonujemy pomiary inżynieryjne, geologiczne i geodezyjne. Opracowujemy rozwiązania architektoniczne i konstrukcyjne. Koordynujemy współpracę z wszelkimi urzędami."
     },
     "construction": {
       "title": "Budownictwo",

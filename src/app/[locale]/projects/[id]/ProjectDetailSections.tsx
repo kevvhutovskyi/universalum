@@ -4,7 +4,6 @@
 import { ProjectGallery } from "@/components/organisms/ProjectsGallery";
 import { getProject } from "@/data/getProject";
 import { ProjectItem } from "@/types";
-import { p } from "framer-motion/client";
 import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
 

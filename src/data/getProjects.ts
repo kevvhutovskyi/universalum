@@ -108,8 +108,8 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item1.title"),
       images: [
-        '/projects/desings/project1/image1.jpg',
-        '/projects/desings/project1/image2.jpg',
+        '/projects/designs/project1/image1.jpg',
+        '/projects/designs/project1/image2.jpg',
       ]
     },
     {

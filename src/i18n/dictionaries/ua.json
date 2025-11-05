@@ -61,10 +61,10 @@
     "networkError": "Помилка мережі. Перевірте з'єднання та спробуйте ще раз."
   },
   "services": {
-    "title": "Реалізуємо житлові, комерційні та інфраструктурні об'єкти",
+    "title": "Розробляємо житлові, комерційні та інфраструктурні об'єкти",
     "design": {
       "title": "Проєктування",
-      "description": "Комплексна підготовка проєктної документації для житлових, комерційних і громадських об'єктів. Виконуємо інженерно-геологічні та геодезичні вишукування, розробляємо архітектурні рішення, погоджуємо з усіма інстанціями."
+      "description": "Комплексна розробка проєктної документації для житлових, комерційних і громадських об'єктів. Виконуємо інженерно-геологічні та геодезичні вишукування. Розробляємо архітектурні та конструктивні рішення. Погоджуємо з усіма інстанціями."
     },
     "construction": {
       "title": "Будівництво",
@@ -125,42 +125,42 @@
       },
       "designs": {
         "item1": {
-          "title": "Comfort-Class Apartment Building"
+          "title": "Багатоквартирний житловий будинок комфорт-класу"
         },
         "item2": {
-          "title": "Shopping and Entertainment Complex \"Podillia-City\"",
-          "location": "Vinnytsia"
+          "title": "Торгово-розважальний комплекс «Поділля-Сіті»",
+          "location": "м. Вінниця"
         },
         "item3": {
-          "title": "Multi-Apartment Residential Building with a Shopping and Entertainment Complex",
-          "location": "Vinnytsia"
+          "title": "Багатоквартирний житловий будинок з торгово-розважальним комплексом",
+          "location": "м. Вінниця"
         },
         "item4": {
-          "title": "Comprehensive Project of a Warehouse Building with Office and Utility Premises",
-          "location": "Pidberiztsi village, Lviv region"
+          "title": "Комплексний проєкт складської будівлі з офісними та допоміжними приміщеннями",
+          "location": "с. Підберізці, Львівська область"
         },
         "item5": {
-          "title": "Modern Educational Institution"
+          "title": "Сучасний навчальний заклад"
         },
         "item6": {
-          "title": "Industrial and Manufacturing Complex"
+          "title": "Промислово-виробничий комплекс"
         },
         "item7": {
-          "title": "Multi-Apartment Residential Building",
-          "location": "Lviv"
+          "title": "Багатоквартирний житловий будинок",
+          "location": "м. Львів"
         },
         "item8": {
-          "title": "Cottage Complex"
+          "title": "Котеджне містечко"
         },
         "item9": {
-          "title": "Office Center",
-          "location": "Lviv"
+          "title": "Офісний центр",
+          "location": "м. Львів"
         },
         "item10": {
-          "title": "Office Center"
+          "title": "Офісний центр"
         },
         "item11": {
-          "title": "Medical Center"
+          "title": "Медичний центр"
         }
       },
       "constructions": {
