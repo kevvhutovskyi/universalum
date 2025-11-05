@@ -119,25 +119,25 @@ const DescriptionSection = ({
     {
       title: t("pages.about.features.experiencedTeam.title"),
       description: t("pages.about.features.experiencedTeam.description"),
-      image: "/advantages/adv-1.jpg",
+      image: "/about/about-1.png",
       imageFirst: false,
     },
     {
       title: t("pages.about.features.comprehensiveApproach.title"),
       description: t("pages.about.features.comprehensiveApproach.description"),
-      image: "/advantages/adv-2.jpg",
+      image: "/about/about-2.png",
       imageFirst: true,
     },
     {
       title: t("pages.about.features.ownEquipment.title"),
       description: t("pages.about.features.ownEquipment.description"),
-      image: "/advantages/adv-3.jpg",
+      image: "/about/about-3.png",
       imageFirst: false,
     },
     {
       title: t("pages.about.features.certifiedQuality.title"),
       description: t("pages.about.features.certifiedQuality.description"),
-      image: "/advantages/adv-4.jpg",
+      image: "/about/about-4.png",
       imageFirst: true,
     },
   ];

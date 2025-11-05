@@ -39,20 +39,19 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       img: "/projects/concept/project4/image1.jpg",
       tags: [Tags.CONCEPT],
       title: t("projects.items.concepts.item4.title"),
-      location: t("projects.items.concepts.item4.location"),
       images: [
         '/projects/concept/project4/image1.jpg'
       ]
     },
     {
       id: 5,
-      img: "/projects/concept/project5/image1.jpg",
+      img: "/projects/concept/project5/image1.png",
       tags: [Tags.CONCEPT],
       title: t("projects.items.concepts.item5.title"),
       location: t("projects.items.concepts.item5.location"),
       images: [
-        '/projects/concept/project5/image1.jpg',
-        '/projects/concept/project5/image2.jpg',
+        '/projects/concept/project5/image1.png',
+        '/projects/concept/project5/image2.png',
       ]
     },
     {
@@ -75,21 +74,21 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
     },
     {
       id: 8,
-      img: "/projects/concept/project8/image1.jpg",
+      img: "/projects/concept/project8/image1.png",
       tags: [Tags.CONCEPT],
       title: t("projects.items.concepts.item8.title"),
       images: [
-        '/projects/concept/project8/image1.jpg'
+        '/projects/concept/project8/image1.png'
       ]
     },
     {
       id: 9,
-      img: "/projects/concept/project9/image1.jpg",
+      img: "/projects/concept/project9/image1.png",
       tags: [Tags.CONCEPT],
       title: t("projects.items.concepts.item9.title"),
       location: t("projects.items.concepts.item9.location"),
       images: [
-        '/projects/concept/project9/image1.jpg'
+        '/projects/concept/project9/image1.png'
       ]
     },
     {
@@ -114,24 +113,24 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
     },
     {
       id: 12,
-      img: "/projects/designs/project2/image1.jpg",
+      img: "/projects/designs/project2/image1.png",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item2.title"),
       location: t("projects.items.designs.item2.location"),
       images: [
-        '/projects/designs/project2/image1.jpg',
-        '/projects/designs/project2/image2.jpg',
+        '/projects/designs/project2/image1.png',
+        '/projects/designs/project2/image2.png',
         '/projects/designs/project2/image3.jpg',
       ]
     },
     {
       id: 13,
-      img: "/projects/designs/project3/image1.jpg",
+      img: "/projects/designs/project3/image1.png",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item3.title"),
       location: t("projects.items.designs.item3.location"),
       images: [
-        '/projects/designs/project3/image1.jpg',
+        '/projects/designs/project3/image1.png',
       ]
     },
     {
@@ -166,7 +165,6 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       img: "/projects/designs/project6/image1.jpg",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item6.title"),
-      location: t("projects.items.designs.item6.location"),
       images: [
         '/projects/designs/project6/image1.jpg',
         '/projects/designs/project6/image2.jpg',
@@ -177,11 +175,11 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
     },
     {
       id: 17,
-      img: "/projects/designs/project7/image1.jpg",
+      img: "/projects/designs/project7/image1.png",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item7.title"),
       images: [
-        '/projects/designs/project7/image1.jpg',
+        '/projects/designs/project7/image1.png',
         '/projects/designs/project7/image2.jpg',
       ]
     },
@@ -190,7 +188,6 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       img: "/projects/designs/project8/image1.jpg",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item8.title"),
-      location: t("projects.items.designs.item8.location"),
       images: [
         '/projects/designs/project8/image1.jpg',
         '/projects/designs/project8/image2.jpg',
@@ -198,12 +195,13 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
     },
     {
       id: 19,
-      img: "/projects/designs/project9/image1.jpg",
+      img: "/projects/designs/project9/image1.png",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item9.title"),
       images: [
-        '/projects/designs/project9/image1.jpg',
-        '/projects/designs/project9/image2.jpg',
+        '/projects/designs/project9/image1.png',
+        '/projects/designs/project9/image2.png',
+        '/projects/designs/project9/image3.png',
       ]
     },
     {
@@ -220,7 +218,6 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       img: "/projects/designs/project11/image1.jpg",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item11.title"),
-      location: t("projects.items.designs.item11.location"),
       images: [
         '/projects/designs/project11/image1.jpg',
         '/projects/designs/project11/image2.jpg',
