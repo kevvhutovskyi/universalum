@@ -104,9 +104,6 @@ export const TestimonialsBlock = () => {
           <div className="flex flex-col gap-2 md:gap-6">
             <div className="flex gap-2 items-center">
               <div className="h-3 w-3 rounded-full bg-accent-orange" />
-              <p className="text-body-1 text-grayscale-white">
-                {t("common.reviews")}
-              </p>
             </div>
             <h2 className="text-headline-4 md:text-headline-2 text-grayscale-white max-w-[34rem]">
               {t("common.whatOurClientsSay")}
