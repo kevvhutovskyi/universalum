@@ -26,6 +26,9 @@ export interface HeroSliderProps {
 const defaultSlides: HeroSlide[] = [
   { image: "/photo/Hero1.png" },
   { image: "/photo/Hero2.png" },
+  { image: "/photo/Hero3.png" },
+  { image: "/photo/Hero4.png" },
+  { image: "/photo/Hero5.png" },
 ];
 
 // Slide component for rendering each background image
@@ -49,7 +52,7 @@ const SlideImage = React.memo(
         className="z-0"
       />
       {/* Dark overlay for better text visibility */}
-    <div className="absolute inset-0 z-10 bg-[radial-gradient(ellipse_at_bottom,_rgba(0,0,0,0.18)_0%,_rgba(0,0,0,0.08)_35%,_transparent_75%)]" />
+      <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/30 via-black/15 to-transparent" />
   </div>
   )
 );

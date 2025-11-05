@@ -24,7 +24,7 @@
     "ourPartners": "Nasi partnerzy",
     "partnersDescription": "Pracujemy z wiodącymi dostawcami i partnerami, gwarantując jakość i niezawodność",
     "reviews": "Opinie",
-    "whatOurClientsSay": "Co mówią o nas nasi klienci",
+    "whatOurClientsSay": "Opinie i rekomendacje naszych klientów",
     "addressAndContacts": "Adres i kontakty",
     "contacts": "Kontakty",
     "address": "Adres",
@@ -63,16 +63,13 @@
   "services": {
     "title": "Projektujemy obiekty mieszkaniowe, komercyjne i infrastrukturalne",
     "design": {
-      "title": "Projektowanie",
-      "description": "Kompleksowe opracowywanie dokumentacji projektowej dla obiektów mieszkalnych, komercyjnych i użyteczności publicznej. Wykonujemy pomiary inżynieryjne, geologiczne i geodezyjne. Opracowujemy rozwiązania architektoniczne i konstrukcyjne. Koordynujemy współpracę z wszelkimi urzędami."
+      "title": "Projektowanie"
     },
     "construction": {
-      "title": "Budownictwo",
-      "description": "Budujemy budynki od podstaw - konstrukcje fundamentowe, monolityczne, szkieletowe. Wykonujemy prace dachowe, elewacyjne, wykończeniowe, a także zagospodarowanie terenu. Mamy doświadczenie w realizacji projektów w trudnych warunkach klimatycznych i gruntowych."
+      "title": "Budownictwo"
     },
     "engineering": {
-      "title": "Rozwiązania inżynieryjne",
-      "description": "Opracowanie i montaż nowoczesnych systemów inżynieryjnych: wentylacja, ogrzewanie, instalacje sanitarne, sieci elektryczne, oświetlenie, hydroizolacja. Stosujemy technologie energooszczędne i materiały wysokiej jakości dla długotrwałej i bezpiecznej eksploatacji obiektu."
+      "title": "Rozwiązania inżynieryjne"
     },
     "energy": {
       "title": "Energetyka odnawialna pod klucz",
@@ -91,7 +88,7 @@
           "title": "Wielofunkcyjne centrum handlowe"
         },
         "item2": {
-          "title": "\"Komfortowy kompleks mieszkaniowy\""
+          "title": "Kompleks mieszkaniowy \"Komfort\""
         },
         "item3": {
           "title": "Wielofunkcyjny budynek użyteczności publicznej z wielopoziomowym parkingiem",
@@ -205,8 +202,8 @@
   "pages": {
     "about": {
       "title": "O firmie",
-      "subtitle1": "Grupa firm 'Universalum' i 'TDG COMPANY' to zespół doświadczonych inżynierów, projektantów i budowniczych, którzy realizują złożone i duże projekty w całej Ukrainie i poza nią.",
-      "subtitle2": "Działamy jako generalny projektant i generalny wykonawca, oferując pełny zakres usług: od koncepcji do oddania projektu.",
+      "subtitle1": "Grupa firm Universalum oraz TDG COMPANY to zespół doświadczonych inżynierów, projektantów, budowniczych oraz menedżerów, którzy realizują wielokierunkowe projekty na terenie całej Ukrainy i poza jej granicami.",
+      "subtitle2": "Działamy jako generalny projektant i generalny wykonawca, oferując pełny zakres usług — od koncepcji do oddania obiektu do użytku.",
       "advantages": {
         "title": "Nasze zalety",
         "heading": "Niezawodność sprawdzona dziesiątkami projektów",
@@ -218,7 +215,7 @@
       "features": {
         "experiencedTeam": {
           "title": "Doświadczony zespół",
-          "description": "Specjaliści z ponad 35-letnim doświadczeniem w realizacji projektów na Ukrainie, w Kazachstanie, Gruzji i Turkmenistanie."
+          "description": "Specjaliści z ponad 35-letnim doświadczeniem w realizacji projektów na terenie Ukrainy i za granicą."
         },
         "comprehensiveApproach": {
           "title": "Kompleksowe podejście",
@@ -293,9 +290,10 @@
         }
       },
       "engineering": {
-        "heating": "Systemy ogrzewania i zaopatrzenia w ciepło",
-        "waterSupply": "Zaopatrzenie w wodę i kanalizacja",
-        "electrical": "Zasilanie elektryczne i oświetlenie wewnętrzne",
+        "ventilation": "Wentylacja i klimatyzacja",
+        "heating": "Systemy grzewcze",
+        "waterSupply": "Wodociągi i kanalizacja",
+        "electrical": "Sieci elektryczne",
         "fireSafety": "Systemy bezpieczeństwa przeciwpożarowego",
         "automation": "Automatyzacja i dyspozytoryzacja"
       },

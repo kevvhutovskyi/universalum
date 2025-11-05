@@ -24,7 +24,7 @@
     "ourPartners": "Our Partners",
     "partnersDescription": "We work with leading suppliers and partners, guaranteeing quality and reliability",
     "reviews": "Reviews",
-    "whatOurClientsSay": "What Our Clients Say About Us",
+    "whatOurClientsSay": "Reviews and recommendations from our clients",
     "addressAndContacts": "Address and Contacts",
     "contacts": "Contacts",
     "address": "Address",
@@ -63,16 +63,13 @@
   "services": {
     "title": "We develop residential, commercial, and infrastructure projects",
     "design": {
-      "title": "Design",
-      "description": "Comprehensive development of project documentation for residential, commercial and public facilities. We perform engineering, geological and geodetic surveys. We develop architectural and structural solutions. We coordinate with all authorities."
+      "title": "Design"
     },
     "construction": {
-      "title": "Construction",
-      "description": "We build buildings from scratch - foundation, monolithic, frame structures. We perform roofing, facade, finishing works, as well as landscaping. We have experience in implementing projects in difficult climatic and soil conditions."
+      "title": "Construction"
     },
     "engineering": {
-      "title": "Engineering Solutions",
-      "description": "Development and installation of modern engineering systems: ventilation, heating, plumbing, electrical networks, lighting, waterproofing. We use energy-efficient technologies and quality materials for long-term and safe operation of the facility."
+      "title": "Engineering Solutions"
     },
     "energy": {
       "title": "Turnkey Renewable Energy",
@@ -91,7 +88,7 @@
           "title": "Multifunctional shopping center"
         },
         "item2": {
-          "title": "\"Comfort residential complex\""
+          "title": "Residential complex \"Comfort\""
         },
         "item3": {
           "title": "Multifunctional public building with multi-level parking",
@@ -202,8 +199,8 @@
   "pages": {
     "about": {
       "title": "About Company",
-      "subtitle1": "The 'Universalum' and 'TDG COMPANY' group of companies is a team of experienced engineers, designers and builders who implement complex and large-scale projects throughout Ukraine and beyond.",
-      "subtitle2": "We work as a general designer and general contractor, offering a full range of services: from concept to project delivery.",
+      "subtitle1": "The Universalum group of companies and TDG COMPANY is a team of experienced engineers, designers, builders, and management professionals who implement multi-vector projects throughout Ukraine and beyond.",
+      "subtitle2": "We work as a general designer and general contractor, offering a full cycle of services: from concept to project completion.",
       "advantages": {
         "title": "Our advantages",
         "heading": "Reliability proven by dozens of projects",
@@ -215,7 +212,7 @@
       "features": {
         "experiencedTeam": {
           "title": "Experienced team",
-          "description": "Specialists with over 35 years of experience implementing projects in Ukraine, Kazakhstan, Georgia and Turkmenistan."
+          "description": "Specialists with over 35 years of experience in completed projects in Ukraine and abroad."
         },
         "comprehensiveApproach": {
           "title": "Comprehensive approach",
@@ -290,9 +287,10 @@
         }
       },
       "engineering": {
-        "heating": "Heating and heat supply systems",
-        "waterSupply": "Water supply and sewerage",
-        "electrical": "Power supply and internal lighting",
+        "ventilation": "Ventilation and air conditioning",
+        "heating": "Heating systems",
+        "waterSupply": "Water supply and drainage",
+        "electrical": "Electrical networks",
         "fireSafety": "Fire safety systems",
         "automation": "Automation and dispatching"
       },

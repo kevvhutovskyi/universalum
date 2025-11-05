@@ -48,6 +48,7 @@ const DescriptionSection = ({
 }) => {
   const advantages: {
     title: string;
+    description?: string;
     imageFirst: boolean;
     image: string;
     data: AccordionItem[] | string[];
@@ -88,7 +89,7 @@ const DescriptionSection = ({
         },
       ],
       title: t("services.design.title"),
-      image: "/advantages/adv-1.jpg",
+      image: "/advantages/adv-1.png",
       imageFirst: true,
     },
     {
@@ -130,12 +131,13 @@ const DescriptionSection = ({
           ],
         },
       ],
-      image: "/advantages/adv-2.jpg",
+      image: "/advantages/adv-2.png",
       imageFirst: false,
     },
     {
       title: t("services.engineering.title"),
       data: [
+        t("pages.services.engineering.ventilation"),
         t("pages.services.engineering.heating"),
         t("pages.services.engineering.waterSupply"),
         t("pages.services.engineering.electrical"),
@@ -147,6 +149,7 @@ const DescriptionSection = ({
     },
     {
       title: t("services.energy.title"),
+      description: t("services.energy.description"),
       data: [
         t("pages.services.energy.windgeneration"),
         t("pages.services.energy.sunstations"),
@@ -192,6 +195,9 @@ const DescriptionSection = ({
             <h2 className="text-headline-4 md:text-headline-2">
               {advantage.title}
             </h2>
+            {advantage.description && <div>
+              {advantage.description}
+            </div>}
             {isDataAccordion(advantage.data) ? (
               <AnimatedAccordion accordionData={advantage.data} />
             ) : (
