@@ -26,12 +26,12 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
     },
     {
       id: 3,
-      img: "/projects/concept/project3/image1.jpg",
+      img: "/projects/concept/project3/image1.png",
       tags: [Tags.CONCEPT],
       title: t("projects.items.concepts.item3.title"),
       location: t("projects.items.concepts.item3.location"),
       images: [
-        '/projects/concept/project3/image1.jpg',
+        '/projects/concept/project3/image1.png',
       ]
     },
     {
