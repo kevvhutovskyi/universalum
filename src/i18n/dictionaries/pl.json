@@ -73,6 +73,10 @@
     "engineering": {
       "title": "Rozwiązania inżynieryjne",
       "description": "Opracowanie i montaż nowoczesnych systemów inżynieryjnych: wentylacja, ogrzewanie, instalacje sanitarne, sieci elektryczne, oświetlenie, hydroizolacja. Stosujemy technologie energooszczędne i materiały wysokiej jakości dla długotrwałej i bezpiecznej eksploatacji obiektu."
+    },
+    "energy": {
+      "title": "Energetyka odnawialna pod klucz",
+      "description": "Nasza firma projektuje i montuje elektrownie wykorzystujące odnawialne źródła energii. Każdy projekt jest indywidualnym rozwiązaniem dopasowanym do Twoich potrzeb. Wykonujemy dokładne obliczenia i projektujemy instalacje o maksymalnej wydajności."
     }
   },
   "projects": {
@@ -294,6 +298,11 @@
         "electrical": "Zasilanie elektryczne i oświetlenie wewnętrzne",
         "fireSafety": "Systemy bezpieczeństwa przeciwpożarowego",
         "automation": "Automatyzacja i dyspozytoryzacja"
+      },
+      "energy": {
+        "windgeneration": "Energetyka wiatrowa",
+        "sunstations": "Elektrownie słoneczne",
+        "windsunstations": "Zintegrowane systemy wiatrowo-słoneczne"
       }
     },
     "projects": {

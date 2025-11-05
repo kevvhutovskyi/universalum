@@ -145,6 +145,16 @@ const DescriptionSection = ({
       image: "/advantages/adv-3.jpg",
       imageFirst: true,
     },
+    {
+      title: t("services.energy.title"),
+      data: [
+        t("pages.services.energy.windgeneration"),
+        t("pages.services.energy.sunstations"),
+        t("pages.services.energy.windsunstations")
+      ],
+      image: '/advantages/adv-5.jpg',
+      imageFirst: false,
+    }
   ];
 
   const isDataAccordion = (

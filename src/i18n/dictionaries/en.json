@@ -73,6 +73,10 @@
     "engineering": {
       "title": "Engineering Solutions",
       "description": "Development and installation of modern engineering systems: ventilation, heating, plumbing, electrical networks, lighting, waterproofing. We use energy-efficient technologies and quality materials for long-term and safe operation of the facility."
+    },
+    "energy": {
+      "title": "Turnkey Renewable Energy",
+      "description": "Our company designs and installs renewable energy power plants. Each of our projects is an individual solution tailored to your needs. We provide precise calculations and design stations with maximum efficiency."
     }
   },
   "projects": {
@@ -291,6 +295,11 @@
         "electrical": "Power supply and internal lighting",
         "fireSafety": "Fire safety systems",
         "automation": "Automation and dispatching"
+      },
+      "energy": {
+        "windgeneration": "Wind Power Generation",
+        "sunstations": "Solar Power Plants",
+        "windsunstations": "Combined Wind-Solar Systems"
       }
     },
     "projects": {
