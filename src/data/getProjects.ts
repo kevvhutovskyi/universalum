@@ -103,6 +103,15 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
     },
     {
       id: 11,
+      img: "/projects/concept/project11/image1.jpg",
+      tags: [Tags.CONCEPT],
+      title: t("projects.items.concepts.item11.title"),
+      images: [
+        "/projects/concept/project11/image1.jpg"
+      ]
+    },
+    {
+      id: 12,
       img: "/projects/designs/project1/image1.jpg",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item1.title"),
@@ -112,7 +121,7 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       ]
     },
     {
-      id: 12,
+      id: 13,
       img: "/projects/designs/project2/image1.png",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item2.title"),
@@ -124,7 +133,7 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       ]
     },
     {
-      id: 13,
+      id: 14,
       img: "/projects/designs/project3/image1.png",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item3.title"),
@@ -134,7 +143,7 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       ]
     },
     {
-      id: 14,
+      id: 15,
       img: "/projects/designs/project4/image1.jpg",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item4.title"),
@@ -148,7 +157,7 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       ]
     },
     {
-      id: 15,
+      id: 16,
       img: "/projects/designs/project5/image1.jpg",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item5.title"),
@@ -161,7 +170,7 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       ]
     },
     {
-      id: 16,
+      id: 17,
       img: "/projects/designs/project6/image1.jpg",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item6.title"),
@@ -174,7 +183,7 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       ]
     },
     {
-      id: 17,
+      id: 18,
       img: "/projects/designs/project7/image1.png",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item7.title"),
@@ -184,7 +193,7 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       ]
     },
     {
-      id: 18,
+      id: 19,
       img: "/projects/designs/project8/image1.jpg",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item8.title"),
@@ -194,7 +203,7 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       ]
     },
     {
-      id: 19,
+      id: 20,
       img: "/projects/designs/project9/image1.png",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item9.title"),
@@ -205,7 +214,7 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       ]
     },
     {
-      id: 20,
+      id: 21,
       img: "/projects/designs/project10/image1.jpg",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item10.title"),
@@ -214,7 +223,7 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       ]
     },
     {
-      id: 21,
+      id: 22,
       img: "/projects/designs/project11/image1.jpg",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item11.title"),
@@ -225,7 +234,38 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       ]
     },
     {
-      id: 22,
+      id: 23,
+      img: "/projects/designs/project12/image1.jpg",
+      tags: [Tags.DESIGN],
+      title: t("projects.items.designs.item12.title"),
+      images: [
+        '/projects/designs/project12/image1.jpg',
+        '/projects/designs/project12/image2.jpg',
+      ]
+    },
+    {
+      id: 24,
+      img: "/projects/designs/project13/image1.png",
+      tags: [Tags.DESIGN],
+      title: t("projects.items.designs.item13.title"),
+      images: [
+        '/projects/designs/project13/image1.png',
+        '/projects/designs/project13/image2.png',
+        '/projects/designs/project13/image3.png',
+      ]
+    },
+    {
+      id: 25,
+      img: "/projects/designs/project14/image1.jpg",
+      tags: [Tags.DESIGN],
+      title: t("projects.items.designs.item14.title"),
+      images: [
+        '/projects/designs/project14/image1.jpg',
+        '/projects/designs/project14/image2.jpg',
+      ]
+    },
+    {
+      id: 26,
       img: "/projects/constructions/project1/image1.jpg",
       tags: [Tags.CONSTRUCTION],
       title: t("projects.items.constructions.item1.title"),
@@ -247,7 +287,7 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       ]
     },
     {
-      id: 23,
+      id: 27,
       img: "/projects/constructions/project2/image1.jpg",
       tags: [Tags.CONSTRUCTION],
       title: t("projects.items.constructions.item2.title"),
@@ -268,7 +308,7 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       ],
     },
     {
-      id: 24,
+      id: 28,
       img: "/projects/constructions/project3/image1.jpg",
       tags: [Tags.CONSTRUCTION],
       title: t("projects.items.constructions.item3.title"),
@@ -298,6 +338,74 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
         '/projects/constructions/project3/image23.jpg',
         '/projects/constructions/project3/image24.jpg',
       ],
+    },
+    {
+      id: 29,
+      img: "/projects/constructions/project4/image1.jpg",
+      tags: [Tags.CONSTRUCTION],
+      title: t("projects.items.constructions.item4.title"),
+      location: t("projects.items.constructions.item4.location"),
+      images: [
+        '/projects/constructions/project4/image1.jpg',
+      ]
+    },
+    {
+      id: 30,
+      img: "/projects/constructions/project5/image1.jpg",
+      tags: [Tags.CONSTRUCTION],
+      title: t("projects.items.constructions.item5.title"),
+      location: t("projects.items.constructions.item5.location"),
+      images: [
+        '/projects/constructions/project5/image1.jpg',
+      ]
+    },
+    {
+      id: 31,
+      img: "/projects/constructions/project6/image1.jpg",
+      tags: [Tags.CONSTRUCTION],
+      title: t("projects.items.constructions.item6.title"),
+      location: t("projects.items.constructions.item6.location"),
+      images: [
+        '/projects/constructions/project6/image1.jpg',
+      ]
+    },
+    {
+      id: 32,
+      img: "/projects/constructions/project7/image1.jpg",
+      tags: [Tags.CONSTRUCTION],
+      title: t("projects.items.constructions.item7.title"),
+      location: t("projects.items.constructions.item7.location"),
+      images: [
+        '/projects/constructions/project7/image1.jpg',
+      ]
+    },
+    {
+      id: 33,
+      img: "/projects/constructions/project8/image1.jpg",
+      tags: [Tags.CONSTRUCTION],
+      title: t("projects.items.constructions.item8.title"),
+      location: t("projects.items.constructions.item8.location"),
+      images: [
+        '/projects/constructions/project8/image1.jpg',
+        '/projects/constructions/project8/image2.jpg',
+        '/projects/constructions/project8/image3.jpg',
+        '/projects/constructions/project8/image4.jpg',
+      ]
+    },
+    {
+      id: 34,
+      img: "/projects/constructions/project9/image1.jpg",
+      tags: [Tags.CONSTRUCTION],
+      title: t("projects.items.constructions.item9.title"),
+      location: t("projects.items.constructions.item9.location"),
+      images: [
+        '/projects/constructions/project9/image1.jpg',
+        '/projects/constructions/project9/image2.jpg',
+        '/projects/constructions/project9/image3.jpg',
+        '/projects/constructions/project9/image4.jpg',
+        '/projects/constructions/project9/image5.jpg',
+        '/projects/constructions/project9/image6.jpg',
+      ]
     },
   ];
 }

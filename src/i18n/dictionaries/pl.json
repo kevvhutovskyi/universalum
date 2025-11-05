@@ -121,6 +121,9 @@
         "item10": {
           "title": "Koncepcja budynku mieszkalnego z użytkowymi tarasami na dachu",
           "location": "Mukaczewo, obwód zakarpacki"
+        },
+        "item11": {
+          "title": "Wielofunkcyjny kompleks mieszkaniowy"
         }
       }
     },
@@ -162,6 +165,17 @@
       },
       "item11": {
         "title": "Centrum medyczne"
+      },
+      "item12": {
+        "title": "Projekt wykonania zadaszenia zewnętrznego basenu z wodą termalną.",
+        "location": "Berehowo, obwód zakarpacki, Ośrodek Wypoczynkowy Żajworonok"
+      },
+      "item13": {
+        "title": "Rekonstrukcja Miejskiego Przedsiębiorstwa „Lotnisko Mukaczewo”",
+        "location": "Obwód zakarpacki"
+      },
+      "item14": {
+        "title": "Rekonstrukcja sanatorium"
       }
     },
     "constructions": {
@@ -175,6 +189,30 @@
       "item3": {
         "title": "Apartamenty mieszkalne",
         "location": "Mukaczewo, obwód zakarpacki"
+      },
+       "item4": {
+        "title": "Rekonstrukcja prywatnego domu mieszkalnego",
+        "location": "Obwód lwowski, wieś Worowci"
+      },
+      "item5": {
+        "title": "Rekonstrukcja budynku administracyjnego na kompleks mieszkalno-biurowy",
+        "location": "Lwów"
+      },
+      "item6": {
+        "title": "Nowa budowa bloku zasilania energetycznego dla kompleksu mieszkaniowego",
+        "location": "Lwów"
+      },
+      "item7": {
+        "title": "Rekonstrukcja budynku „Fabryka Pończoch”",
+        "location": "Lwów"
+      },
+      "item8": {
+        "title": "Budynek administracyjny",
+        "location": "Mukaczewo, obwód zakarpacki"
+      },
+      "item9": {
+        "title": "Prywatny basen",
+        "location": "wieś Isai, obwód lwowski"
       }
     }
   },

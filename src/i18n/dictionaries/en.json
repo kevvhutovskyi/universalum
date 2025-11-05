@@ -122,6 +122,9 @@
         "item10": {
           "title": "The concept of an apartment building with usable roof terraces.",
           "location": "Mukachevo, Transcarpathian region."
+        },
+        "item11": {
+          "title": "Multifunctional residential complex"
         }
       },
       "designs": {
@@ -159,6 +162,17 @@
         },
         "item11": {
           "title": "Medical Center"
+        },
+        "item12": {
+          "title": "Project for constructing a roof over an outdoor thermal water pool.",
+          "location": "Berehove, Zakarpattia region, Zhajvoronok Recreation Complex"
+        },
+        "item13": {
+          "title": "Reconstruction of Mukachevo Municipal Enterprise Airport",
+          "location": "Zakarpattia region"
+        },
+        "item14": {
+          "title": "Reconstruction of the sanatorium"
         }
       },
       "constructions": {
@@ -172,6 +186,30 @@
         "item3": {
           "title": "Residential Apartments",
           "location": "Mukachevo, Transcarpathian region."
+        },
+        "item4": {
+          "title": "Reconstruction of a private residential house",
+          "location": "Lviv region, Vorovtsi village"
+        },
+        "item5": {
+          "title": "Reconstruction of an administrative building into a residential-office complex",
+          "location": "Lviv"
+        },
+        "item6": {
+          "title": "New construction of the energy supply block for a residential complex",
+          "location": "Lviv"
+        },
+        "item7": {
+          "title": "Reconstruction of the “Sock Factory” building",
+          "location": "Lviv"
+        },
+        "item8": {
+          "title": "Administrative building",
+          "location": "Mukachevo, Zakarpattia region"
+        },
+        "item9": {
+          "title": "Private swimming pool",
+          "location": "Isai village, Lviv region"
         }
       }
     }
