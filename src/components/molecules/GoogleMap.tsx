@@ -60,17 +60,29 @@ export const GoogleMap: React.FC<GoogleMapProps> = ({ apiKey }) => {
           disableDefaultUI: true, // removes ALL UI
           zoomControl: true, // add back zoom buttons (optional)
           styles: customStyle,
+          mapId: apiKey,
         });
 
-        new google.maps.Marker({
+        const infoWindow = new google.maps.InfoWindow();
+
+        const pin = new google.maps.marker.PinElement({
+          background: "#FF5A5A",
+          borderColor: "#ffffff",
+          glyphColor: "#ffffff",
+        });
+
+        const marker = new google.maps.marker.AdvancedMarkerElement({
           position: { lat: 49.8609863, lng: 24.0508318 },
           map,
-          animation: google.maps.Animation.DROP, // or BOUNCE
-          icon: {
-            url: "/icons/MapPin.svg", // path to your image
-            scaledSize: new google.maps.Size(40, 40), // resize
-            anchor: new google.maps.Point(20, 40), // move "tip" of pin to bottom center
-          },
+          title: "Bohdana Khmel'nyts'kogo st, 176",
+          content: pin.element,
+          gmpClickable: true,
+        });
+
+        marker.addEventListener('click', () => {
+          infoWindow.close();
+          infoWindow.setContent(marker.title);
+          infoWindow.open(marker.map, marker);
         });
       }
     };
@@ -78,7 +90,7 @@ export const GoogleMap: React.FC<GoogleMapProps> = ({ apiKey }) => {
     // Load Google Maps script if not already loaded
     if (!window.google) {
       const script = document.createElement("script");
-      script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}`;
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=marker&v=beta`;
       script.async = true;
       script.defer = true;
       script.onload = initMap;

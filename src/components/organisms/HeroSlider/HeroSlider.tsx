@@ -49,8 +49,8 @@ const SlideImage = React.memo(
         className="z-0"
       />
       {/* Dark overlay for better text visibility */}
-      <div className="absolute inset-0 z-10 bg-[radial-gradient(ellipse_at_bottom,_rgba(0,0,0,0.6)_0%,_rgba(0,0,0,0.4)_35%,_transparent_75%)]" />
-    </div>
+    <div className="absolute inset-0 z-10 bg-[radial-gradient(ellipse_at_bottom,_rgba(0,0,0,0.18)_0%,_rgba(0,0,0,0.08)_35%,_transparent_75%)]" />
+  </div>
   )
 );
 
