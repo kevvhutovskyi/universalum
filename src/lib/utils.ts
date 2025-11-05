@@ -125,3 +125,15 @@ export function groupBy<T, K extends keyof T>(array: T[], key: K): Record<string
     return acc;
   }, {} as Record<string | number, T[]>);
 }
+
+/**
+ * Shuffle array in random order
+ */
+export function shuffleArray<T>(array: T[]): T[] {
+  const result = [...array];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}

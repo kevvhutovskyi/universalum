@@ -23,7 +23,7 @@ const HeaderSection = ({ t }: { t: ReturnType<typeof useTranslations> }) => {
       <Image
         width={1920}
         height={400}
-        src="/photo/Hero3.png"
+        src="/nav-pages/image1.png"
         alt="About Us"
         className="object-cover object-top w-full h-50 md:h-75 lg:h-96"
       />
@@ -120,25 +120,25 @@ const DescriptionSection = ({
       title: t("pages.about.features.experiencedTeam.title"),
       description: t("pages.about.features.experiencedTeam.description"),
       image: "/about/about-1.png",
-      imageFirst: false,
+      imageFirst: true,
     },
     {
       title: t("pages.about.features.comprehensiveApproach.title"),
       description: t("pages.about.features.comprehensiveApproach.description"),
       image: "/about/about-2.png",
-      imageFirst: true,
+      imageFirst: false,
     },
     {
       title: t("pages.about.features.ownEquipment.title"),
       description: t("pages.about.features.ownEquipment.description"),
       image: "/about/about-3.png",
-      imageFirst: false,
+      imageFirst: true,
     },
     {
       title: t("pages.about.features.certifiedQuality.title"),
       description: t("pages.about.features.certifiedQuality.description"),
       image: "/about/about-4.png",
-      imageFirst: true,
+      imageFirst: false,
     },
   ];
 

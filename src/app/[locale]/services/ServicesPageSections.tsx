@@ -25,7 +25,7 @@ const HeaderSection = ({ t }: { t: ReturnType<typeof useTranslations> }) => {
       <Image
         width={1920}
         height={400}
-        src="/photo/Hero2.png"
+        src="/nav-pages/image3.png"
         alt="About Us"
         className="object-cover object-top w-full h-50 md:h-75 lg:h-96"
       />

@@ -7,7 +7,7 @@ import { useRouter } from "@/i18n/routing";
 
 interface ServiceCardProps {
   title: string;
-  description?: string;
+  description: string;
   icon: string;
   className?: string;
 }
@@ -60,14 +60,17 @@ export function ServicesBlock() {
   const services = [
     {
       title: t("services.design.title"),
+      description: t("services.design.description"),
       icon: "/icons/Projecting.svg",
     },
     {
       title: t("services.construction.title"),
+      description: t("services.construction.description"),
       icon: "/icons/Building.svg",
     },
     {
       title: t("services.engineering.title"),
+      description: t("services.engineering.description"),
       icon: "/icons/EngineeringSolutions.svg",
     },
   ];
@@ -105,6 +108,7 @@ export function ServicesBlock() {
             >
               <ServiceCard
                 title={service.title}
+                description={service.description}
                 icon={service.icon}
               />
             </div>

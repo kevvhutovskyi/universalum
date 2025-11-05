@@ -61,15 +61,18 @@
     "networkError": "Błąd sieci. Sprawdź połączenie i spróbuj ponownie."
   },
   "services": {
-    "title": "Projektujemy obiekty mieszkaniowe, komercyjne i infrastrukturalne",
+    "title": "Opracowujemy kompleksowe rozwiązania projektowe dla obiektów mieszkaniowych, komercyjnych i infrastrukturalnych",
     "design": {
-      "title": "Projektowanie"
+      "title": "Projektowanie",
+      "description": "Kompleksowe opracowywanie dokumentacji projektowej dla obiektów mieszkalnych, komercyjnych i użyteczności publicznej. Wykonujemy pomiary inżynieryjne, geologiczne i geodezyjne. Opracowujemy rozwiązania architektoniczne i konstrukcyjne. Koordynujemy współpracę z wszelkimi urzędami."
     },
     "construction": {
-      "title": "Budownictwo"
+      "title": "Budownictwo",
+      "description": "Budujemy budynki od podstaw - konstrukcje fundamentowe, monolityczne, szkieletowe. Wykonujemy prace dachowe, elewacyjne, wykończeniowe, a także zagospodarowanie terenu. Mamy doświadczenie w realizacji projektów w trudnych warunkach klimatycznych i gruntowych."
     },
     "engineering": {
-      "title": "Rozwiązania inżynieryjne"
+      "title": "Rozwiązania inżynieryjne",
+      "description": "Budujemy budynki od podstaw - konstrukcje fundamentowe, monolityczne, szkieletowe. Wykonujemy prace dachowe, elewacyjne, wykończeniowe, a także zagospodarowanie terenu. Mamy doświadczenie w realizacji projektów w trudnych warunkach klimatycznych i gruntowych."
     },
     "energy": {
       "title": "Energetyka odnawialna pod klucz",

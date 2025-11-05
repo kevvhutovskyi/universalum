@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { SwiperSlide } from "swiper/react";
 import { Swiper as SwiperType } from "swiper/types";
 import "swiper/css";
@@ -8,7 +8,7 @@ import { Heading, Text } from "@/components/atoms";
 import { ProjectCard, SliderControls } from "@/components/molecules";
 import { Button } from "@/components/ui/button";
 import ProjectsSlider from "@/components/universal/ProjectsSlider";
-import { cn } from "@/lib/utils";
+import { cn, shuffleArray } from "@/lib/utils";
 import { Tags } from "@/types/tags.enum";
 import { useTranslations } from "next-intl";
 import { useRouter } from "@/i18n/routing";
@@ -27,7 +27,7 @@ export const ProjectsSectionSlider = React.forwardRef<HTMLElement>(
     const t = useTranslations();
     const router = useRouter();
 
-    const defaultProjects: ProjectItem[] = getProjects(t)
+    const defaultProjects = useRef(shuffleArray(getProjects(t)));
 
     const projectsToUse = defaultProjects;
     const sectionLabelToUse = t("common.ourProjects");
@@ -36,7 +36,7 @@ export const ProjectsSectionSlider = React.forwardRef<HTMLElement>(
     const [activeSlide, setActiveSlide] = useState<number>(0);
     const [swiper, setSwiper] = useState<SwiperType>();
 
-    const numberOfSlides = projectsToUse.length;
+    const numberOfSlides = projectsToUse.current.length;
 
     const handleChangeSlide = (slideIndex: number) => {
       const newIndex = (slideIndex + numberOfSlides) % numberOfSlides;
@@ -52,12 +52,12 @@ export const ProjectsSectionSlider = React.forwardRef<HTMLElement>(
     };
 
     useEffect(() => {
-      if (swiper && projectsToUse.length > 0) {
+      if (swiper && projectsToUse.current.length > 0) {
         const newIndex = 0;
         swiper.slideToLoop(newIndex);
         setActiveSlide(newIndex);
       }
-    }, [swiper, projectsToUse.length]);
+    }, [swiper, projectsToUse.current.length]);
 
     return (
       <section ref={ref} className={cn("w-full py-20 bg-white")} {...props}>
@@ -109,7 +109,7 @@ export const ProjectsSectionSlider = React.forwardRef<HTMLElement>(
             setSwiper={setSwiper}
             setActiveSlide={setActiveSlide}
           >
-            {projectsToUse.map((project) => (
+            {projectsToUse.current.map((project) => (
               <SwiperSlide key={project.id}>
                 <ProjectCard
                   image={project.img}
