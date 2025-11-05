@@ -155,7 +155,7 @@ const DescriptionSection = ({
         t("pages.services.energy.sunstations"),
         t("pages.services.energy.windsunstations")
       ],
-      image: '/advantages/adv-5.jpg',
+      image: '/advantages/adv-5.png',
       imageFirst: false,
     }
   ];
