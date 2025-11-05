@@ -24,6 +24,7 @@ export const ProjectCard = React.forwardRef<HTMLDivElement, ProjectCardProps>(
         )}
         {...props}
       >
+        <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/45 via-black/15 to-transparent" />
         {/* Background Image */}
         <Image
           src={image}
