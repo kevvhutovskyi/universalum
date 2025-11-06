@@ -4,10 +4,12 @@ import { DEFAULT_LANGUAGE } from "@/config/constants";
 
 export const routing = defineRouting({
   // A list of all locales that are supported
-  locales: ["en", "ua", "pl"],
+  locales: ["ua", "en", "pl"],
 
   // Used when no locale matches
   defaultLocale: DEFAULT_LANGUAGE,
+
+  localePrefix: 'always',
 });
 
 // Lightweight wrappers around Next.js' navigation APIs
