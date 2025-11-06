@@ -77,6 +77,7 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       img: "/projects/concept/project8/image1.png",
       tags: [Tags.CONCEPT],
       title: t("projects.items.concepts.item8.title"),
+      location: t("projects.items.concepts.item8.location"),
       images: [
         '/projects/concept/project8/image1.png'
       ]
@@ -147,6 +148,7 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       img: "/projects/designs/project4/image1.jpg",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item4.title"),
+      location: t("projects.items.designs.item4.location"),
       images: [
         '/projects/designs/project4/image1.jpg',
         '/projects/designs/project4/image2.jpg',
@@ -187,6 +189,7 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       img: "/projects/designs/project7/image1.png",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item7.title"),
+      location: t("projects.items.designs.item7.location"),
       images: [
         '/projects/designs/project7/image1.png',
         '/projects/designs/project7/image2.jpg',
@@ -207,6 +210,7 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
       img: "/projects/designs/project9/image1.png",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item9.title"),
+      location: t("projects.items.designs.item9.location"),
       images: [
         '/projects/designs/project9/image1.png',
         '/projects/designs/project9/image2.png',
@@ -215,11 +219,11 @@ export const getProjects = (t: ReturnType<typeof useTranslations>): ProjectItem[
     },
     {
       id: 21,
-      img: "/projects/designs/project10/image1.jpg",
+      img: "/projects/designs/project10/image1.png",
       tags: [Tags.DESIGN],
       title: t("projects.items.designs.item10.title"),
       images: [
-        '/projects/designs/project10/image1.jpg'
+        '/projects/designs/project10/image1.png'
       ]
     },
     {

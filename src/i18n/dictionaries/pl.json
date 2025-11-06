@@ -91,7 +91,7 @@
           "title": "Wielofunkcyjne centrum handlowe"
         },
         "item2": {
-          "title": "Kompleks mieszkaniowy \"Komfort\""
+          "title": "Kompleks mieszkaniowy \"Comfort\""
         },
         "item3": {
           "title": "Wielofunkcyjny budynek użyteczności publicznej z wielopoziomowym parkingiem",
@@ -101,14 +101,14 @@
           "title": "Kompleks sportowy"
         },
         "item5": {
-          "title": "Budynek mieszkalny z budynkiem użyteczności publicznej – \"wkładką\"",
+          "title": "Budynek mieszkalny z budynkiem \"wstawką\" użyteczności publicznej",
           "location": "Lwów"
         },
         "item6": {
-          "title": "Wielofunkcyjny kompleks. Mieszkania. Biura. Handel."
+          "title": "Kompleks wielofunkcyjny. Mieszkalnictwo. Biura. Handel."
         },
         "item7": {
-          "title": "Wielofunkcyjny kompleks. Biura. Handel."
+          "title": "Kompleks wielofunkcyjny. Biura. Handel."
         },
         "item8": {
           "title": "Koncepcja budowy II etapu budynku chirurgicznego z lądowiskiem dla helikopterów",
@@ -119,102 +119,102 @@
           "location": "Lwów"
         },
         "item10": {
-          "title": "Koncepcja budynku mieszkalnego z użytkowymi tarasami na dachu",
+          "title": "Koncepcja wielorodzinnego budynku mieszkalnego z tarasami użytkowymi na dachu.",
           "location": "Mukaczewo, obwód zakarpacki"
         },
         "item11": {
           "title": "Wielofunkcyjny kompleks mieszkaniowy"
         }
+      },
+      "designs": {
+        "item1": {
+          "title": "Wielorodzinny budynek mieszkalny klasy komfort"
+        },
+        "item2": {
+          "title": "Centrum handlowo-rozrywkowe «Podilla-City»",
+          "location": "Winnica"
+        },
+        "item3": {
+          "title": "Wielorodzinny budynek mieszkalny z centrum handlowo-rozrywkowym",
+          "location": "Winnica"
+        },
+        "item4": {
+          "title": "Kompleksowy projekt budynku magazynowego z pomieszczeniami biurowymi i pomocniczymi",
+          "location": "Wieś Pidberiztsi, obwód lwowski"
+        },
+        "item5": {
+          "title": "Nowoczesna placówka edukacyjna"
+        },
+        "item6": {
+          "title": "Kompleks przemysłowo-produkcyjny"
+        },
+        "item7": {
+          "title": "Wielorodzinny budynek mieszkalny",
+          "location": "Lwów"
+        },
+        "item8": {
+          "title": "Kompleks domków jednorodzinnych"
+        },
+        "item9": {
+          "title": "Centrum biurowe",
+          "location": "Lwów"
+        },
+        "item10": {
+          "title": "Centrum biurowe"
+        },
+        "item11": {
+          "title": "Centrum medyczne"
+        },
+        "item12": {
+          "title": "Projekt zadaszenia odkrytego basenu z wodą termalną.",
+          "location": "Berehowo. Obwód zakarpacki, Ośrodek Wypoczynkowy Żajworonok"
+        },
+        "item13": {
+          "title": "Przebudowa MMKP \"Lotnisko Mukaczewo\"",
+          "location": "Obwód zakarpacki"
+        },
+        "item14": {
+          "title": "Przebudowa sanatorium"
+        }
+      },
+      "constructions": {
+        "item1": {
+          "title": "Prywatna klinika",
+          "location": "Mukaczewo, obwód zakarpacki"
+        },
+        "item2": {
+          "title": "Wielorodzinny budynek mieszkalny z penthouse'ami i powierzchniami komercyjnymi",
+          "location": "Mukaczewo, obwód zakarpacki"
+        },
+        "item3": {
+          "title": "Apartamenty mieszkalne"
+        },
+        "item4": {
+          "title": "Przebudowa prywatnego domu mieszkalnego",
+          "location": "Obwód lwowski, wieś Worowciw"
+        },
+        "item5": {
+          "title": "Przebudowa budynku administracyjnego na kompleks mieszkalno-biurowy",
+          "location": "Lwów"
+        },
+        "item6": {
+          "title": "Nowa budowa bloku zasilania energetycznego kompleksu mieszkalnego",
+          "location": "Lwów"
+        },
+        "item7": {
+          "title": "Przebudowa budynku \"Fabryka Pończoch\"",
+          "location": "Lwów"
+        },
+        "item8": {
+          "title": "Budynek administracyjny",
+          "location": "Mukaczewo, obwód zakarpacki"
+        },
+        "item9": {
+          "title": "Prywatny basen",
+          "location": "Wieś Isaje. Obwód lwowski"
+        }
       }
-    },
-    "designs": {
-      "item1": {
-        "title": "Budynek mieszkalny klasy komfort"
-      },
-      "item2": {
-        "title": "Centrum handlowo-rozrywkowe \"Podillia-City\"",
-        "location": "Winnica"
-      },
-      "item3": {
-        "title": "Wielomieszkaniowy budynek mieszkalny z centrum handlowo-rozrywkowym",
-        "location": "Winnica"
-      },
-      "item4": {
-        "title": "Złożony projekt budynku magazynowego z pomieszczeniami biurowymi i użytkowymi",
-        "location": "wieś Pidberizci, obwód lwowski"
-      },
-      "item5": {
-        "title": "Nowoczesna placówka edukacyjna"
-      },
-      "item6": {
-        "title": "Kompleks przemysłowo-produkcyjny"
-      },
-      "item7": {
-        "title": "Wielomieszkaniowy budynek mieszkalny",
-        "location": "Lwów"
-      },
-      "item8": {
-        "title": "Kompleks domków jednorodzinnych"
-      },
-      "item9": {
-        "title": "Centrum biurowe",
-        "location": "Lwów"
-      },
-      "item10": {
-        "title": "Centrum biurowe"
-      },
-      "item11": {
-        "title": "Centrum medyczne"
-      },
-      "item12": {
-        "title": "Projekt wykonania zadaszenia zewnętrznego basenu z wodą termalną.",
-        "location": "Berehowo, obwód zakarpacki, Ośrodek Wypoczynkowy Żajworonok"
-      },
-      "item13": {
-        "title": "Rekonstrukcja Miejskiego Przedsiębiorstwa „Lotnisko Mukaczewo”",
-        "location": "Obwód zakarpacki"
-      },
-      "item14": {
-        "title": "Rekonstrukcja sanatorium"
-      }
-    },
-    "constructions": {
-      "item1": {
-        "title": "Prywatna klinika"
-      },
-      "item2": {
-        "title": "Wielomieszkaniowy budynek mieszkalny z penthouse’ami i lokalami użytkowymi",
-        "location": "Mukaczewo, obwód zakarpacki"
-      },
-      "item3": {
-        "title": "Apartamenty mieszkalne",
-        "location": "Mukaczewo, obwód zakarpacki"
-      },
-       "item4": {
-        "title": "Rekonstrukcja prywatnego domu mieszkalnego",
-        "location": "Obwód lwowski, wieś Worowci"
-      },
-      "item5": {
-        "title": "Rekonstrukcja budynku administracyjnego na kompleks mieszkalno-biurowy",
-        "location": "Lwów"
-      },
-      "item6": {
-        "title": "Nowa budowa bloku zasilania energetycznego dla kompleksu mieszkaniowego",
-        "location": "Lwów"
-      },
-      "item7": {
-        "title": "Rekonstrukcja budynku „Fabryka Pończoch”",
-        "location": "Lwów"
-      },
-      "item8": {
-        "title": "Budynek administracyjny",
-        "location": "Mukaczewo, obwód zakarpacki"
-      },
-      "item9": {
-        "title": "Prywatny basen",
-        "location": "wieś Isai, obwód lwowski"
-      }
-    }
+    } 
   },
   "testimonials": {
     "testimonial1": {

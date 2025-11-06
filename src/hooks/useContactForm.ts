@@ -41,7 +41,7 @@ export const useContactForm = () => {
       if (response.ok) {
         setSubmitStatus({
           type: "success",
-          message: result.message,
+          message: t("form.success"),
         });
         form.reset();
       } else {

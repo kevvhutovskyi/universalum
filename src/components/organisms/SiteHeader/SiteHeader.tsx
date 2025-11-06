@@ -20,6 +20,7 @@ import { MenuIcon, XIcon } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import { redirect } from "@/i18n/routing";
 import { useLocale, useTranslations } from "next-intl";
+import Link from "next/link";
 
 export interface SiteHeaderProps {
   className?: string;
@@ -85,7 +86,7 @@ const MobileMenu = ({
           transition={{ type: "tween", duration: 0.3 }}
         >
           <div className="flex w-full justify-between items-center">
-            <div className="absolute left-0 top-0 flex">
+            <Link href={'/'} className="absolute left-0 top-0 flex">
               <Image
                 src="/logo/Universalum.png"
                 alt="Universalum Logo"
@@ -98,7 +99,7 @@ const MobileMenu = ({
                 width={86}
                 height={72}
               />
-            </div>
+            </Link>
 
             <div className="mx-auto container flex relative justify-end xl:justify-center py-4">
               <Button

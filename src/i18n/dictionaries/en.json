@@ -95,24 +95,24 @@
           "title": "Residential complex \"Comfort\""
         },
         "item3": {
-          "title": "Multifunctional public building with multi-level parking",
+          "title": "Multifunctional public building with a multi-level parking lot",
           "location": "Lviv"
         },
         "item4": {
           "title": "Sports complex"
         },
         "item5": {
-          "title": "Residential building with a public building \"insert\"",
+          "title": "Residential building with a public \"insert\" building",
           "location": "Lviv"
         },
         "item6": {
-          "title": "Multifunctional complex. Housing. Offices. Commerce."
+          "title": "Multifunctional complex. Housing. Offices. Commercial."
         },
         "item7": {
-          "title": "Multipurpose complex. Offices. Commerce."
+          "title": "Multipurpose complex. Offices. Commercial."
         },
         "item8": {
-          "title": "Concept of construction of the 2nd stage of the surgical building with a helipad",
+          "title": "Concept for the construction of the 2nd stage of the surgical building with a helipad",
           "location": "Lviv"
         },
         "item9": {
@@ -120,8 +120,8 @@
           "location": "Lviv"
         },
         "item10": {
-          "title": "The concept of an apartment building with usable roof terraces.",
-          "location": "Mukachevo, Transcarpathian region."
+          "title": "Concept of an apartment building with accessible roof terraces.",
+          "location": "Mukachevo, Zakarpattia region"
         },
         "item11": {
           "title": "Multifunctional residential complex"
@@ -129,78 +129,81 @@
       },
       "designs": {
         "item1": {
-          "title": "Comfort class apartment building"
+          "title": "Comfort-class apartment building"
         },
         "item2": {
-          "title": "Shopping and Entertainment Complex \"Podillia-City\""
+          "title": "Shopping and entertainment complex «Podillya-City»",
+          "location": "Vinnytsia"
         },
         "item3": {
-          "title": "Multi-Apartment Residential Building with a Shopping and Entertainment Complex"
+          "title": "Apartment building with a shopping and entertainment complex",
+          "location": "Vinnytsia"
         },
         "item4": {
-          "title": "Comprehensive Project of a Warehouse Building with Office and Utility Premises"
+          "title": "Comprehensive project of a warehouse building with office and auxiliary premises",
+          "location": "Pidberiztsi village, Lviv region"
         },
         "item5": {
-          "title": "Modern Educational Institution"
+          "title": "Modern educational institution"
         },
         "item6": {
-          "title": "Industrial and Manufacturing Complex"
+          "title": "Industrial and production complex"
         },
         "item7": {
-          "title": "Multi-Apartment Residential Building",
+          "title": "Apartment building",
           "location": "Lviv"
         },
         "item8": {
-          "title": "Cottage Complex"
+          "title": "Cottage complex"
         },
         "item9": {
-          "title": "Office Center",
+          "title": "Office center",
           "location": "Lviv"
         },
         "item10": {
-          "title": "Office Center"
+          "title": "Office center"
         },
         "item11": {
-          "title": "Medical Center"
+          "title": "Medical center"
         },
         "item12": {
-          "title": "Project for constructing a roof over an outdoor thermal water pool.",
-          "location": "Berehove, Zakarpattia region, Zhajvoronok Recreation Complex"
+          "title": "Project for roofing an outdoor swimming pool with thermal water.",
+          "location": "Berehove. Zakarpattia region, Zhaivoronok resort"
         },
         "item13": {
-          "title": "Reconstruction of Mukachevo Municipal Enterprise Airport",
+          "title": "Reconstruction of MMKP \"Mukachevo Airport\"",
           "location": "Zakarpattia region"
         },
         "item14": {
-          "title": "Reconstruction of the sanatorium"
+          "title": "Reconstruction of a sanatorium"
         }
       },
       "constructions": {
         "item1": {
-          "title": "Private Clinic"
+          "title": "Private clinic",
+          "location": "Mukachevo, Zakarpattia region"
         },
         "item2": {
-          "title": "Multi-Apartment Residential Building with Penthouses and Commercial Spaces",
-          "location": "Mukachevo, Transcarpathian region."
+          "title": "Apartment building with penthouses and commercial spaces",
+          "location": "Mukachevo, Zakarpattia region"
         },
         "item3": {
-          "title": "Residential Apartments",
-          "location": "Mukachevo, Transcarpathian region."
+          "title": "Residential apartments"
         },
         "item4": {
-          "title": "Reconstruction of a private residential house",
-          "location": "Lviv region, Vorovtsi village"
+          "title": "Reconstruction of a private residential building",
+          "location": "Lviv region, Vorovtsiv village"
         },
         "item5": {
-          "title": "Reconstruction of an administrative building into a residential-office complex",
+          "title": "Reconstruction of an administrative building into a residential and office complex",
           "location": "Lviv"
         },
         "item6": {
-          "title": "New construction of the energy supply block for a residential complex",
+          "title": "New construction of a power supply unit for a residential complex",
           "location": "Lviv"
         },
         "item7": {
-          "title": "Reconstruction of the “Sock Factory” building",
+          "title": "Reconstruction of the \"Panchishna Fabryka\" (Stocking Factory) building",
           "location": "Lviv"
         },
         "item8": {
@@ -209,7 +212,7 @@
         },
         "item9": {
           "title": "Private swimming pool",
-          "location": "Isai village, Lviv region"
+          "location": "Isai village. Lviv region"
         }
       }
     }

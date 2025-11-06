@@ -16,8 +16,8 @@ export interface ProjectCardProps {
 export const ProjectCard = React.forwardRef<HTMLDivElement, ProjectCardProps>(
   ({ image, title, tags, href, className, ...props }, ref) => {
     return (
-      <div
-        ref={ref}
+      <Link
+        href={href}
         className={cn(
           "group relative rounded-lg overflow-hidden h-[350px] flex flex-col justify-end",
           className
@@ -60,15 +60,14 @@ export const ProjectCard = React.forwardRef<HTMLDivElement, ProjectCardProps>(
             </Heading>
 
             {/* Plus icon button  */}
-            <Link
-              href={href}
+            <div
               className="h-10 min-w-10 rounded bg-white flex items-center justify-center text-grayscale-black hover:bg-accent-orange hover:text-white transition-colors duration-300"
             >
               <PlusIcon size="md" />
-            </Link>
+            </div>
           </div>
         </div>
-      </div>
+      </Link>
     );
   }
 );
