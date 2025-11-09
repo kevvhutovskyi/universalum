@@ -23,6 +23,8 @@ export async function generateMetadata({
 }: {
   params: { locale: "en" | "ua" | "pl" };
 }): Promise<Metadata> {
+
+  
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata" });
 
@@ -38,11 +40,13 @@ export function generateStaticParams() {
 
 export default async function RootLayout({
   children,
-  params: { locale },
+  params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { locale: "en" | "ua" | "pl" };
+  params: Promise<{ locale: "en" | "ua" | "pl" }>;
 }>) {
+  const { locale } = await params;
+
   // Ensure that the incoming `locale` is valid
   if (!routing.locales.includes(locale as "en" | "ua" | "pl")) {
     console.log("not found", locale);
